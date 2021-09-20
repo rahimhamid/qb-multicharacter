@@ -13,7 +13,7 @@
 
 .characters-block-header>p {
     text-align: center;
-    color: #ededed;
+    color: #383838;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
 }
@@ -47,7 +47,7 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: .1vh;
     font-weight: 900;
-    color: #ededed;
+    color: #ea00ff;
 }
 
 .character {
@@ -56,13 +56,13 @@
     height: 75px;
     margin-top: 15px;
     font-family: 'Lato' monospace;
-    border-bottom: 4px solid #74aa3200;
+    border-bottom: 4px solid #575457;
     transition: .1s linear;
     border-radius: .3vh;
 }
 
 .character>span {
-    color: #ededed;
+    color: #8e00b1;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: .1vh;
@@ -70,7 +70,7 @@
 }
 
 #cid {
-    color: #ededed;
+    color: #8e00b1;
     position: relative;
     float: right;
     font-size: 1.5vh;
@@ -79,16 +79,16 @@
 }
 
 .char-selected {
-    background-color: #dc143c;
+    background-color: #8e00b1;
 }
 
 .disabled {
-    background-color: rgba(0, 0, 0, 0.691);
+    background-color: rgba(198, 0, 216, 0.691);
 }
 
 #slot-name {
     position: relative;
-    color: #ededed;
+    color: #8e00b1;
     font-size: 17px;
     line-height: 80px;
     left: 20px;
@@ -107,7 +107,7 @@
 }
 
 .character-btn>p {
-    color: #ededed;
+    color: #8e00b1;
     letter-spacing: .1vh;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -119,24 +119,24 @@
 
 #play {
     display: none;
-    background-color: #28a745;
+    background-color: #8e00b1;
     border-radius: .3vh;
     transition: all 0.2s ease;
 }
 
 #play:hover {
-    background-color: #228a3a;
+    background-color: #222222;
 }
 
 #delete {
     display: none;
-    background-color: #dc143c;
+    background-color: #313131;
     border-radius: .3vh;
     transition: all 0.2s ease;
 }
 
 #delete:hover {
-    background-color: #eb3434;
+    background-color: #353535;
 }
 
 .character-info {
@@ -155,7 +155,7 @@
 #char-info-icon {
     position: relative;
     font-size: 1.5vh;
-    color: #ededed;
+    color: #8e00b1;
     right: 20px;
     overflow: visible !important;
 }
@@ -164,7 +164,7 @@
     text-transform: uppercase;
     position: absolute;
     font-size: 2vh;
-    color: #ededed;
+    color: #8e00b1;
     top: -2.9vh;
     left: -5vh;
     letter-spacing: .1vh;
@@ -174,7 +174,7 @@
 
 #no-char {
     position: absolute;
-    color: #ededed;
+    color: #8e00b1;
     font-size: 16px;
     top: 30%;
     text-align: center;
@@ -195,7 +195,7 @@
 
 .character-info-box {
     position: relative;
-    color: #ededed;
+    color: #8e00b1;
     font-size: 1.5vh;
     width: 100%;
     height: 2.9vh;
@@ -228,7 +228,7 @@
     padding: 30px;
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #ededed;
+    color: #8e00b1;
     font-family: 'Poppins', sans-serif;
     overflow: visible !important;
 }
@@ -237,7 +237,7 @@
     position: absolute;
     width: 100%;
     height: 11%;
-    color: #ededed;
+    color: #8e00b1;
     text-align: left;
     font-size: 2vh;
     line-height: 29px;
@@ -269,7 +269,7 @@
     bottom: 0;
     left: 5%;
     margin-bottom: 20px;
-    background-color: #28a745;
+    background-color: #383838;
     border-radius: 4px;
     transition: 0.2s;
     overflow: visible !important;
@@ -282,14 +282,14 @@
     bottom: 0;
     right: 5%;
     margin-bottom: 20px;
-    background-color: #dc143c;
+    background-color: #353535;
     border-radius: 4px;
     transition: 0.2s;
     overflow: visible !important;
 }
 
 .character-acceptdel-btn>p {
-    color: #ededed;
+    color: #8e00b1;
     text-align: center;
     padding-top: 1vh;
     font-family: 'Poppins', sans-serif;
@@ -299,7 +299,7 @@
 }
 
 .character-canceldel-btn>p {
-    color: #ededed;
+    color: #8e00b1;
     text-align: center;
     padding-top: 1vh;
     font-family: 'Poppins', sans-serif;
@@ -326,8 +326,8 @@
 
 .material-icons-one {
     margin-left: 39.5vh;
-    color: #ededed;
-    background-color: #dc143c;
+    color: #8e00b1;
+    background-color: #262626;
     font-size: 1.3vh;
     font-weight: 900;
     border-radius: .3vh;
@@ -339,7 +339,7 @@
     position: absolute;
     width: 100%;
     height: 12vh;
-    color: #ededed;
+    color: #8e00b1;
     text-align: left;
     font-size: 2vh;
     font-weight: 900;
@@ -361,7 +361,7 @@
     outline: none;
     width: 92%;
     height: 3vh;
-    color: #ededed;
+    color: #8e00b1;
     max-width: 100%;
     font-weight: 900;
     padding: 4px;
@@ -374,14 +374,14 @@
 select {
     position: absolute;
     border: none;
-    border: .3vh solid #444444;
-    background-color: #171717;
+    border: .3vh solid #3a3a3a;
+    background-color: #484848;
     outline: none;
     width: 93.5%;
     height: 4vh;
     top: 19.9vh;
     left: .1vh;
-    color: #ededed;
+    color: #8e00b1;
     max-width: 100%;
     padding: 4px;
     border-radius: .3vh;
@@ -417,11 +417,11 @@ select::-ms-expand {
 }
 
 .char-reg-input::placeholder {
-    color: rgba(255, 255, 255, 0.52);
+    color: rgba(255, 0, 255, 0.52);
 }
 
 input[type="date"] {
-    color: #ededed;
+    color: #ea00ff;
     text-align: center;
 }
 
@@ -444,7 +444,7 @@ input[type="date"]::-webkit-clear-button {
 }
 
 #birthdate {
-    color: #ededed;
+    color: #7600fc;
     text-align: center;
     font-family: 'Lato', monospace;
 }
@@ -453,7 +453,7 @@ input[type="date"]::-webkit-clear-button {
     position: absolute;
     max-width: 87%;
     height: 4vh;
-    background-color: #dc143c;
+    background-color: #3d3d3d;
     border-radius: .3vh;
     bottom: 3vh;
     margin: 0 auto;
@@ -464,7 +464,7 @@ input[type="date"]::-webkit-clear-button {
 .character-reg-btn>p {
     text-align: center;
     line-height: 4vh;
-    color: #ededed;
+    color: #8e00b1;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 2vh;
